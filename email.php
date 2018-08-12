@@ -12,4 +12,5 @@ $headers = "<html>"  . "\r\n" .
 $headers = "<body>"  . "\r\n" .
 mail($to, $subject, $messag, $headers);
 echo "<script type=\"text/javascript\">alert('Report Emailed to $to');"."window.location = 'reports.php'</script>";
+
 ?>
