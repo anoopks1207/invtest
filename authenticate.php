@@ -58,4 +58,5 @@ function authenticate($user, $password) {
 		return false;
 	}
 }
+
 ?>
